@@ -16,8 +16,4 @@ def parse
     email.split(,)
   end 
   emails.flatten.uniq
-end 
-end 
-
-
 end
