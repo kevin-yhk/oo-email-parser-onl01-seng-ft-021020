@@ -12,6 +12,6 @@ attr_accessor :emails
   end 
 
   def parse
-    
+    email_array = @emails.split.
   end 
 end
