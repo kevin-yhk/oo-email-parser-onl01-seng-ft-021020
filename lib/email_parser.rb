@@ -17,6 +17,7 @@ def parse
   end 
   emails.flatten.uniq
 end 
+end 
 
 
 end
