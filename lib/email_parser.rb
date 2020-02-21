@@ -16,4 +16,3 @@ class EmailAddressParse
   end 
 end
 
-end 
