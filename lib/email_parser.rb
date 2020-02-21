@@ -9,7 +9,7 @@ class EmailAddressParse
   end 
   
   def parse 
-    csv_emails.split.collect do |address|
+    emails_csv.split.collect do |address|
       address.split(',') 
     end
     .flatten.uniq 
