@@ -12,8 +12,8 @@ def initialize(emails)
 end 
 
 def parse
-  emails.split.map |do|
-  
+  emails.split.map do |email|
+    
 end 
 
 
