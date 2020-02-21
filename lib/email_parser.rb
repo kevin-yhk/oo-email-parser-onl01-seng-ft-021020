@@ -14,6 +14,7 @@ end
 def parse
   email = @emails.split(/[, ]/).uniq 
   email.reject! {|i| i.empty?}
+  email
 end 
 
 
