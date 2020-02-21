@@ -15,6 +15,6 @@ attr_accessor :emails
     emails.split.map do |email|
       email.split(",")
     end 
-    email.flatten.uniq
+    .flatten.uniq
   end 
 end
