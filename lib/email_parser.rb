@@ -13,6 +13,6 @@ attr_accessor :emails
 
   def parse
     email_array = @emails.split.map do |email|
-      
+      email.split()
   end 
 end
